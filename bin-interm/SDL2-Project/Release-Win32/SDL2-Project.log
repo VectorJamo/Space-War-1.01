@@ -1,0 +1,8 @@
+﻿  Game.cpp
+C:\C++ Projects\SDL2-Project\SDL2-Project\src\Game.cpp(87,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  1 of 262 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SDL2-Project.vcxproj -> C:\C++ Projects\SDL2-Project\bin\SDL2-Project\Release-Win32\SDL2-Project.exe

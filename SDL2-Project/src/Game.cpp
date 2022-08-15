@@ -298,7 +298,6 @@ void Game::controlsMenu()
 			else
 				back->setAlpha(220);
 			
-
 			//Draw
 			menuBackground->draw(0, 0);
 			controlsImage->draw(0, 0);
