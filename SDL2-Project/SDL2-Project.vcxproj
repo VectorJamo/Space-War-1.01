@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{58392a81-04f6-420d-8ec0-fcaee3babdab}</ProjectGuid>
+    <ProjectGuid>{3677de78-e6eb-456e-9948-56e342565487}</ProjectGuid>
     <RootNamespace>SDL2Project</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -72,23 +72,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)-$(Platform)\</OutDir>
-    <IntDir>$(SolutionDir)\bin-interm\$(ProjectName)\$(Configuration)-$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)\bin-interm\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)-$(Platform)\</OutDir>
-    <IntDir>$(SolutionDir)\bin-interm\$(ProjectName)\$(Configuration)-$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)\bin-interm\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)-$(Platform)\</OutDir>
-    <IntDir>$(SolutionDir)\bin-interm\$(ProjectName)\$(Configuration)-$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)\bin-interm\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)-$(Platform)\</OutDir>
-    <IntDir>$(SolutionDir)\bin-interm\$(ProjectName)\$(Configuration)-$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)\bin-interm\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -102,7 +102,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)Externals\SDL2\lib\x86\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2main.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -121,7 +121,8 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)Externals\SDL2\lib\x86\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2main.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -136,7 +137,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)Externals\SDL2\lib\x86\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2main.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -155,49 +156,62 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)Externals\SDL2\lib\x86\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2main.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Game.cpp" />
-    <ClCompile Include="src\Engine\Audio.cpp" />
-    <ClCompile Include="src\Engine\Button.cpp" />
-    <ClCompile Include="src\Engine\Sprite.cpp" />
-    <ClCompile Include="src\Engine\Text.cpp" />
-    <ClCompile Include="src\Engine\Timer.cpp" />
-    <ClCompile Include="src\Engine\Window.cpp" />
-    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="Engine\Audio.cpp" />
+    <ClCompile Include="Engine\Entity.cpp" />
+    <ClCompile Include="Engine\Sprite.cpp" />
+    <ClCompile Include="Engine\Timer.cpp" />
+    <ClCompile Include="Engine\UI.cpp" />
+    <ClCompile Include="Engine\Window.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Game.h" />
-    <ClInclude Include="src\Engine\Audio.h" />
-    <ClInclude Include="src\Engine\Button.h" />
-    <ClInclude Include="src\Engine\GameManager.h" />
-    <ClInclude Include="src\Engine\Sprite.h" />
-    <ClInclude Include="src\Engine\Text.h" />
-    <ClInclude Include="src\Engine\Timer.h" />
-    <ClInclude Include="src\Engine\Window.h" />
+    <ClInclude Include="Engine\Audio.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\Entity.h" />
+    <ClInclude Include="Engine\GameManager.h" />
+    <ClInclude Include="Engine\Sprite.h" />
+    <ClInclude Include="Engine\Timer.h" />
+    <ClInclude Include="Engine\UI.h" />
+    <ClInclude Include="Engine\Window.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\images\textures\boss-bullet.png" />
-    <Image Include="res\images\textures\boss.png" />
-    <Image Include="res\images\textures\bullet.png" />
-    <Image Include="res\images\textures\controls.png" />
-    <Image Include="res\images\textures\nuke.png" />
-    <Image Include="res\images\textures\player.png" />
-    <Image Include="res\images\textures\space-background-menu.png" />
-    <Image Include="res\images\textures\space-background.png" />
-    <Image Include="res\images\textures\space-mania.png" />
-    <Image Include="res\images\textures\ufo.png" />
-    <Image Include="res\images\textures\wall.PNG" />
+    <Image Include="res\images\asteroid.png" />
+    <Image Include="res\images\asteroid2.png" />
+    <Image Include="res\images\background.png" />
+    <Image Include="res\images\bullet.png" />
+    <Image Include="res\images\enemy-ship.png" />
+    <Image Include="res\images\health.png" />
+    <Image Include="res\images\power.png" />
+    <Image Include="res\images\space-ship.png" />
+    <Image Include="res\images\sprites\enemySprite.png" />
+    <Image Include="res\images\sprites\explosion.png" />
+    <Image Include="res\images\sprites\explosion2.png" />
+    <Image Include="res\images\UI\Button.png" />
+    <Image Include="res\images\UI\Controls.png" />
+    <Image Include="res\images\UI\ControlsText.png" />
+    <Image Include="res\images\UI\Game-over.png" />
+    <Image Include="res\images\UI\Play.png" />
+    <Image Include="res\images\UI\Quit.png" />
+    <Image Include="res\images\UI\Restart.png" />
+    <Image Include="res\images\UI\ship.png" />
+    <Image Include="res\images\UI\Text.png" />
   </ItemGroup>
   <ItemGroup>
+    <Font Include="res\fonts\American Captain.ttf" />
     <Font Include="res\fonts\Pointless.ttf" />
+    <Font Include="res\fonts\SPACE.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="res\audio\bullet-enemy-explosion.wav" />
     <Media Include="res\audio\bullet-nuke-explosion.wav" />
     <Media Include="res\audio\button-click.wav" />
+    <Media Include="res\audio\click.wav" />
+    <Media Include="res\audio\hover.wav" />
     <Media Include="res\audio\laser-shoot.wav" />
     <Media Include="res\audio\player-hurt.wav" />
   </ItemGroup>

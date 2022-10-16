@@ -1,0 +1,111 @@
+﻿  Main.cpp
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(28,39): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(29,39): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(45,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(46,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(59,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(60,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(77,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(87,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(88,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(112,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(132,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(132,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(133,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(133,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(152,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(220,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(221,59): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(231,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(308,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(309,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(325,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(326,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(342,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(343,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(404,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(405,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(475,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(479,38): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(508,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(509,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(517,31): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(517,31): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(517,41): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(517,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(518,29): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(518,29): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(518,35): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(518,35): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(524,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(525,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(533,30): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(533,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(533,38): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(533,38): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(546,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(547,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(564,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(565,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(570,30): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(570,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(570,38): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(570,38): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(571,26): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(571,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(571,32): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(571,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(585,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(586,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(591,31): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(591,31): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(591,41): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(591,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(609,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(610,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(643,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(651,38): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(651,38): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(651,54): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(651,54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(652,32): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(652,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(652,40): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(652,40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(659,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(706,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(711,29): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(711,29): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(711,37): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(711,37): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(712,33): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(712,33): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(712,49): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(712,49): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(718,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(741,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(741,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(749,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(749,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(750,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(750,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(794,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(795,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(801,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(828,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(842,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(843,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(849,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(876,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(902,40): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(903,40): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(919,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(920,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(936,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++ Projects\SDL2-Project\SDL2-Project\Main.cpp(937,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  1 of 266 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SDL2-Project.vcxproj -> C:\C++ Projects\SDL2-Project\bin\Release\SDL2-Project\SDL2-Project.exe

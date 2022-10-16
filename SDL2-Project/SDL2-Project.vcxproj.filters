@@ -15,94 +15,120 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Main.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Engine\Audio.cpp">
+    <ClCompile Include="Engine\Audio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Engine\Button.cpp">
+    <ClCompile Include="Engine\Entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Engine\Sprite.cpp">
+    <ClCompile Include="Engine\Sprite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Engine\Text.cpp">
+    <ClCompile Include="Engine\Timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Engine\Timer.cpp">
+    <ClCompile Include="Engine\Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Engine\Window.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Game.cpp">
+    <ClCompile Include="Engine\UI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Engine\Audio.h">
+    <ClInclude Include="Engine\Audio.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Engine\Button.h">
+    <ClInclude Include="Engine\Entity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Engine\GameManager.h">
+    <ClInclude Include="Engine\GameManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Engine\Sprite.h">
+    <ClInclude Include="Engine\Sprite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Engine\Text.h">
+    <ClInclude Include="Engine\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Engine\Timer.h">
+    <ClInclude Include="Engine\Window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Engine\Window.h">
+    <ClInclude Include="Engine\Engine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Game.h">
+    <ClInclude Include="Engine\UI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\images\textures\space-background.png">
+    <Image Include="res\images\background.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\images\textures\player.png">
+    <Image Include="res\images\bullet.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\images\textures\ufo.png">
+    <Image Include="res\images\space-ship.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\images\textures\bullet.png">
+    <Image Include="res\images\asteroid.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\images\textures\wall.PNG">
+    <Image Include="res\images\sprites\explosion.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\images\textures\boss.png">
+    <Image Include="res\images\asteroid2.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\images\textures\boss-bullet.png">
+    <Image Include="res\images\sprites\explosion2.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\images\textures\nuke.png">
+    <Image Include="res\images\enemy-ship.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\images\textures\space-background-menu.png">
+    <Image Include="res\images\sprites\enemySprite.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\images\textures\controls.png">
+    <Image Include="res\images\health.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\images\textures\space-mania.png">
+    <Image Include="res\images\UI\Controls.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\images\UI\Restart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\images\UI\Play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\images\UI\Quit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\images\UI\ship.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\images\UI\Button.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\images\UI\Text.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\images\UI\ControlsText.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\images\UI\Game-over.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\images\power.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
     <Font Include="res\fonts\Pointless.ttf" />
+    <Font Include="res\fonts\SPACE.ttf" />
+    <Font Include="res\fonts\American Captain.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="res\audio\bullet-enemy-explosion.wav">
@@ -111,13 +137,19 @@
     <Media Include="res\audio\bullet-nuke-explosion.wav">
       <Filter>Resource Files</Filter>
     </Media>
-    <Media Include="res\audio\player-hurt.wav">
+    <Media Include="res\audio\button-click.wav">
       <Filter>Resource Files</Filter>
     </Media>
     <Media Include="res\audio\laser-shoot.wav">
       <Filter>Resource Files</Filter>
     </Media>
-    <Media Include="res\audio\button-click.wav">
+    <Media Include="res\audio\player-hurt.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\audio\hover.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\audio\click.wav">
       <Filter>Resource Files</Filter>
     </Media>
   </ItemGroup>
